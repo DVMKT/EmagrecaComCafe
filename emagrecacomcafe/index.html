@@ -96,13 +96,12 @@ if (event.keyCode == 73) {return false;}
 	  
   </head>
   <body>
-	  
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><script>$.get("https://ipinfo.io/json", function (response) {
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><script>$.get("https://ipinfo.io/json", function (response) {
 $("#ip").html("IP: " + response.ip);
 $("#address").html(response.city + ", em " + response.region);
 $("#details").html(JSON.stringify(response, null, 4));
 }, "jsonp");</script>
-<center>Você e algumas mulheres de <span id="address"></span> foram selecionados para participar deste programa.</center>
+<center>Você e mais 537 mulheres de <span id="address"></span> foram selecionados para assistir à essa apresentação.</center>
 	  
 	<style>
       .pessoinhas {
@@ -113,7 +112,7 @@ $("#details").html(JSON.stringify(response, null, 4));
     	</style>
 
 <div class="pessoinhas">
-<center> <span style=""><b>Para quem está <u>mais de 5kg acima do peso</u>!</b></center></span>
+<center> <span style=""><b>Você e mais 537 mulheres de <span id="address"></span> foram selecionados para assistir à essa apresentação.</u></b></center></span>
 </div>  
     <header class="py-4">
       <div class="container">
